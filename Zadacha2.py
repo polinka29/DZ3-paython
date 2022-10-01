@@ -12,4 +12,4 @@ for i in range(randint(3, 5)):
 res = []
 for i in range((len(num) // 2)):
     res.append(num[i] * num[len(num) - 1 - i])
-print(num, res, sep=' -> ')
+print(num, res, sep=' - ')
